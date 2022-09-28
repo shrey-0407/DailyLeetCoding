@@ -7,7 +7,7 @@ public:
             }
         }
         for(int i=0;i<m.size();i++){
-            reverse(m[i].begin(),m[i].end());
+            reverse(begin(m[i]),end(m[i]));
         }
     }
 };
